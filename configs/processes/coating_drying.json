@@ -1,0 +1,185 @@
+{
+  "stage": "coating_drying",
+  "features": [
+    "Electrode type",
+    "Solid Content (%)",
+    "Coating ratio (%)",
+    "Coating Speed (m/min)",
+    "Coating Gap (micron)",
+    "Shear rate",
+    "Viscosity (Pa.s)",
+    "Drying temp-Zone1",
+    "Drying temp-Zone2",
+    "slurry density g/cm3",
+    "Solid density (g/cm3)"
+  ],
+  "targets": [
+    "Mass loading dry (mg/cm2)",
+    "Dry Coating Thickness (\u00b5m)",
+    "Dried Porosity (%)"
+  ],
+  "categorical_features": [
+    "Electrode type"
+  ],
+  "split_group_features": [
+    "Electrode type",
+    "Solid Content (%)",
+    "Coating ratio (%)",
+    "Coating Gap (micron)",
+    "Coating Speed (m/min)",
+    "Shear rate",
+    "Viscosity (Pa.s)",
+    "Drying temp-Zone1",
+    "Drying temp-Zone2",
+    "slurry density g/cm3"
+  ],
+  "bootstrap_group_features": [
+    "Electrode type",
+    "Solid Content (%)",
+    "Coating ratio (%)",
+    "Coating Gap (micron)",
+    "Coating Speed (m/min)",
+    "Shear rate",
+    "Viscosity (Pa.s)",
+    "Drying temp-Zone1",
+    "Drying temp-Zone2",
+    "slurry density g/cm3"
+  ],
+  "test_group_features": [
+    "Electrode type",
+    "Solid Content (%)",
+    "Coating ratio (%)",
+    "Coating Gap (micron)",
+    "Coating Speed (m/min)",
+    "Shear rate",
+    "Viscosity (Pa.s)",
+    "Drying temp-Zone1",
+    "Drying temp-Zone2",
+    "slurry density g/cm3"
+  ],
+  "target_configurations": {
+    "Mass loading dry (mg/cm2)": {
+      "distribution": "Gaussian",
+      "target_mode": "log1p",
+      "xgb_params": {
+        "eta": 0.014612888552836725,
+        "max_depth": 6,
+        "gamma": 0.000757514204162887,
+        "min_child_weight": 6.201867910215552,
+        "subsample": 0.7009485257661009,
+        "colsample_bytree": 0.7064566049306502,
+        "lambda": 0.00012034960643867149,
+        "alpha": 0.20051609754670502,
+        "nthread": 1,
+        "booster": "gbtree",
+        "verbosity": 0
+      },
+      "num_boost_round": 850,
+      "dist_kwargs": {
+        "stabilization": "None",
+        "response_fn": "softplus",
+        "loss_fn": "nll"
+      }
+    },
+    "Dry Coating Thickness (\u00b5m)": {
+      "distribution": "Gaussian",
+      "target_mode": "raw",
+      "xgb_params": {
+        "eta": 0.04146550081421626,
+        "max_depth": 4,
+        "gamma": 6.720079159978876e-06,
+        "min_child_weight": 1.1797834612201406,
+        "subsample": 0.7018319793791271,
+        "colsample_bytree": 0.8400403558888357,
+        "lambda": 0.00019553092713490012,
+        "alpha": 1.0168269901720746e-05,
+        "booster": "gbtree",
+        "nthread": 1,
+        "verbosity": 0
+      },
+      "num_boost_round": 800,
+      "dist_kwargs": {
+        "stabilization": "None",
+        "response_fn": "softplus",
+        "loss_fn": "nll"
+      }
+    },
+    "Dried Porosity (%)": {
+      "distribution": "Gumbel",
+      "target_mode": "log1p",
+      "xgb_params": {
+        "eta": 0.00945852907927703,
+        "max_depth": 5,
+        "gamma": 1.621245572427618e-07,
+        "min_child_weight": 2.2318483677404184,
+        "subsample": 0.7529922897764948,
+        "colsample_bytree": 0.751244353638117,
+        "lambda": 19.94007022967667,
+        "alpha": 0.06245213963900495,
+        "nthread": 1,
+        "booster": "gbtree",
+        "verbosity": 0
+      },
+      "num_boost_round": 1000,
+      "dist_kwargs": {
+        "stabilization": "None",
+        "response_fn": "softplus",
+        "loss_fn": "nll"
+      }
+    }
+  },
+  "ensemble_size": 20,
+  "seed": 42,
+  "calibration": "Kuleshov frozen grouped validation CDF maps",
+  "target_input_features": {
+    "Mass loading dry (mg/cm2)": [
+      "Electrode type",
+      "Solid Content (%)",
+      "Coating ratio (%)",
+      "Coating Speed (m/min)",
+      "Coating Gap (micron)",
+      "Shear rate",
+      "Viscosity (Pa.s)",
+      "Drying temp-Zone1",
+      "Drying temp-Zone2",
+      "slurry density g/cm3",
+      "Solid density (g/cm3)",
+      "nominal_wet_film_um",
+      "wet_solids_mass_proxy",
+      "drying_temperature_difference",
+      "inverse_coating_speed"
+    ],
+    "Dry Coating Thickness (\u00b5m)": [
+      "Electrode type",
+      "Solid Content (%)",
+      "Coating ratio (%)",
+      "Coating Speed (m/min)",
+      "Coating Gap (micron)",
+      "Shear rate",
+      "Viscosity (Pa.s)",
+      "Drying temp-Zone1",
+      "Drying temp-Zone2",
+      "slurry density g/cm3"
+    ],
+    "Dried Porosity (%)": [
+      "Electrode type",
+      "Solid Content (%)",
+      "Coating ratio (%)",
+      "Coating Speed (m/min)",
+      "Coating Gap (micron)",
+      "Shear rate",
+      "Viscosity (Pa.s)",
+      "Drying temp-Zone1",
+      "Drying temp-Zone2",
+      "slurry density g/cm3",
+      "Solid density (g/cm3)",
+      "nominal_wet_film_um",
+      "wet_solids_mass_proxy",
+      "drying_temperature_difference",
+      "inverse_coating_speed",
+      "predicted_dry_mass_loading",
+      "predicted_thickness"
+    ]
+  },
+  "input_recipe": "density_aware_conditional_v1"
+}

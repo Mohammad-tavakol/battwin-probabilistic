@@ -1,0 +1,109 @@
+{
+  "stage": "mixing",
+  "features": [
+    "Electrode type",
+    "Chemistry",
+    "Am/total weight%",
+    "Conductive additive type",
+    "Conductive additive/total weight %",
+    "binder1 type",
+    "binder1/total weight %",
+    "binder2 (Thickener) type",
+    "binder2 (thickener)/total weight %",
+    "solvent",
+    "Dispersent Type",
+    "dispersant Additive (%)",
+    "Solid Content (%)",
+    "mixing speed",
+    "shear rate"
+  ],
+  "targets": [
+    "viscosity"
+  ],
+  "categorical_features": [
+    "Electrode type",
+    "Chemistry",
+    "Conductive additive type",
+    "binder1 type",
+    "binder2 (Thickener) type",
+    "solvent",
+    "Dispersent Type"
+  ],
+  "split_group_features": [
+    "Electrode type",
+    "Chemistry",
+    "Am/total weight%",
+    "Conductive additive type",
+    "Conductive additive/total weight %",
+    "binder1 type",
+    "binder1/total weight %",
+    "binder2 (Thickener) type",
+    "binder2 (thickener)/total weight %",
+    "solvent",
+    "Dispersent Type",
+    "dispersant Additive (%)",
+    "Solid Content (%)",
+    "mixing speed",
+    "shear rate"
+  ],
+  "bootstrap_group_features": [
+    "Electrode type",
+    "Chemistry",
+    "Am/total weight%",
+    "Conductive additive type",
+    "Conductive additive/total weight %",
+    "binder1 type",
+    "binder1/total weight %",
+    "binder2 (Thickener) type",
+    "binder2 (thickener)/total weight %",
+    "solvent",
+    "Dispersent Type",
+    "dispersant Additive (%)",
+    "Solid Content (%)",
+    "mixing speed"
+  ],
+  "test_group_features": [
+    "Electrode type",
+    "Chemistry",
+    "Am/total weight%",
+    "Conductive additive type",
+    "Conductive additive/total weight %",
+    "binder1 type",
+    "binder1/total weight %",
+    "binder2 (Thickener) type",
+    "binder2 (thickener)/total weight %",
+    "solvent",
+    "Dispersent Type",
+    "dispersant Additive (%)",
+    "Solid Content (%)",
+    "mixing speed"
+  ],
+  "target_configurations": {
+    "viscosity": {
+      "distribution": "Gamma",
+      "target_mode": "raw",
+      "num_boost_round": 750,
+      "dist_kwargs": {
+        "stabilization": "None",
+        "response_fn": "softplus",
+        "loss_fn": "nll"
+      },
+      "xgb_params": {
+        "eta": 0.1491822176813458,
+        "max_depth": 6,
+        "min_child_weight": 9.662153796174877,
+        "subsample": 0.7726185243254359,
+        "colsample_bytree": 0.7614359403697976,
+        "lambda": 0.006280353228739994,
+        "alpha": 0.10842856546601651,
+        "tree_method": "hist",
+        "max_bin": 512,
+        "nthread": 1,
+        "verbosity": 0
+      }
+    }
+  },
+  "ensemble_size": 20,
+  "seed": 42,
+  "calibration": "Kuleshov held-out validation"
+}

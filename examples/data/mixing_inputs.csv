@@ -1,0 +1,4 @@
+Electrode type,Chemistry,Am/total weight%,Conductive additive type,Conductive additive/total weight %,binder1 type,binder1/total weight %,binder2 (Thickener) type,binder2 (thickener)/total weight %,solvent,Dispersent Type,dispersant Additive (%),Solid Content (%),mixing speed,shear rate
+Cathode,NMC622,70.08,C65,1.46,PVDF,1.46,KS6L,0.0,NMP,'Hypermer',0.25,73.0,2000,1.0
+Cathode,NMC622,70.08,C65,1.46,PVDF,1.46,KS6L,0.0,NMP,'Hypermer',0.25,73.0,2000,1.0
+Cathode,NMC622,70.08,C65,1.46,PVDF,1.46,KS6L,0.0,NMP,'Hypermer',0.25,73.0,2000,5.0

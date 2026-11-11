@@ -1,0 +1,110 @@
+[
+  {
+    "stage": "calendaring",
+    "partition": "test",
+    "path": "data/stages/calendaring/test.csv",
+    "rows": 36,
+    "conditions": 26,
+    "groups": 12,
+    "sha256": "e73975b2641699d3099b910c8564c7afc3eb0438ff86c4812c86739f7e86cfba"
+  },
+  {
+    "stage": "calendaring",
+    "partition": "train",
+    "path": "data/stages/calendaring/train.csv",
+    "rows": 160,
+    "conditions": 139,
+    "groups": 67,
+    "sha256": "59a723694eb0b467588ddbfc0da7077f3d26a86c68afdefde5205789233f99a3"
+  },
+  {
+    "stage": "calendaring",
+    "partition": "validation",
+    "path": "data/stages/calendaring/validation.csv",
+    "rows": 40,
+    "conditions": 31,
+    "groups": 17,
+    "sha256": "af6f4bf627c32ea0f7a66aac4a535c391d58ff5d1409cfb6274879c19525ad45"
+  },
+  {
+    "stage": "coating_drying",
+    "partition": "test",
+    "path": "data/stages/coating_drying/test.csv",
+    "rows": 37,
+    "conditions": 28,
+    "groups": 28,
+    "sha256": "f1d89bd0abf5f609d2930f6af8add8eb6b1dee05e5a9f3370335518f6ccaa083"
+  },
+  {
+    "stage": "coating_drying",
+    "partition": "train",
+    "path": "data/stages/coating_drying/train.csv",
+    "rows": 178,
+    "conditions": 137,
+    "groups": 137,
+    "sha256": "bb9ad69844dc556be68897d5fd54f0c888010417b75fc55e0ae64379829d018b"
+  },
+  {
+    "stage": "coating_drying",
+    "partition": "validation",
+    "path": "data/stages/coating_drying/validation.csv",
+    "rows": 55,
+    "conditions": 35,
+    "groups": 35,
+    "sha256": "4989bf6880d240277653348713e3eda06a51afc023d29cda095405184ee60e75"
+  },
+  {
+    "stage": "electrochemical",
+    "partition": "test",
+    "path": "data/stages/electrochemical/test.csv",
+    "rows": 92,
+    "conditions": 92,
+    "groups": 38,
+    "sha256": "1189b145cd8c996f3d91990cff32f43fa6afbf5aac36345fc6d9d2532d44e21e"
+  },
+  {
+    "stage": "electrochemical",
+    "partition": "train",
+    "path": "data/stages/electrochemical/train.csv",
+    "rows": 504,
+    "conditions": 504,
+    "groups": 232,
+    "sha256": "af7cff6b8381d9266dc4604651a50b5a392b53adc59431f09cfbc79411e742ac"
+  },
+  {
+    "stage": "electrochemical",
+    "partition": "validation",
+    "path": "data/stages/electrochemical/validation.csv",
+    "rows": 116,
+    "conditions": 116,
+    "groups": 59,
+    "sha256": "5a44e635058102f0fc9055f5ac2561ff2fc7bb5547ec0b1edc2a46dbfb43115e"
+  },
+  {
+    "stage": "mixing",
+    "partition": "test",
+    "path": "data/stages/mixing/test.csv",
+    "rows": 885,
+    "conditions": 617,
+    "groups": 617,
+    "sha256": "4a34938b923b77ab8e7a61cff6e0f2513a4c5e9dfcb0aa2c3399fd43b6a43d38"
+  },
+  {
+    "stage": "mixing",
+    "partition": "train",
+    "path": "data/stages/mixing/train.csv",
+    "rows": 3036,
+    "conditions": 2332,
+    "groups": 2332,
+    "sha256": "dd12bdbec4eb8a08f24f265583a1d328f12f81f305d19c04cbd3affa3ac8da48"
+  },
+  {
+    "stage": "mixing",
+    "partition": "validation",
+    "path": "data/stages/mixing/validation.csv",
+    "rows": 732,
+    "conditions": 583,
+    "groups": 583,
+    "sha256": "12e52dbfcbd05ba850db3991ff1bf7188cc7e9d6a6482ec9299e565ebd7729e2"
+  }
+]

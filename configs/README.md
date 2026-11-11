@@ -1,0 +1,1 @@
+Each process schema records exact inputs/targets, split-group and bootstrap-group features, selected hyperparameters, transformations and the canonical seed/member count. Distribution selection in CV remains frozen; no test observations enter tuning or calibration.

@@ -1,0 +1,41 @@
+Paper,Solid density (g/cm3),Electrode type,Am/total weight%,Solid Content (%),Coating Gap (micron),Mass loading dry (mg/cm2),Dry Coating Thickness (µm),Dried Porosity (%),Calendering Roll speed(m/min),Calendaring Roll temp,Calendaring Gap (um),Calendered thickness (um),Calendered porosity (%),_source_row,_source_file,partition
+efficient Analysis,2.158,Anode,48.879999999999995,52.0,124.4,8.185515562041836,87.0,56.401118734663655,1.0,100,42.0,58.6,35.27128549344264,39,data/stages/calendaring/validation.csv,validation
+efficient Analysis,2.158,Anode,48.879999999999995,52.0,124.4,8.109121189357726,87.0,56.80802153250815,1.0,100,42.0,58.6,35.87539032983291,40,data/stages/calendaring/validation.csv,validation
+efficient Analysis,2.158,Anode,48.879999999999995,52.0,124.4,8.77120575262001,87.0,53.281530617855985,1.0,100,42.0,62.6,35.07177577880945,41,data/stages/calendaring/validation.csv,validation
+efficient Analysis,2.158,Anode,48.879999999999995,52.0,124.4,9.01057478703022,85.0,50.87731130660077,1.0,100,35.0,55.6,24.902364407573106,42,data/stages/calendaring/validation.csv,validation
+efficient Analysis,2.158,Anode,48.879999999999995,52.0,124.4,9.348407679566616,85.0,49.03555754474941,1.0,100,35.0,57.6,24.792055404578107,43,data/stages/calendaring/validation.csv,validation
+efficient Analysis,2.158,Anode,48.879999999999995,52.0,124.4,9.184301249356308,85.0,49.93021180092511,1.0,100,35.0,56.6,24.80685517806773,44,data/stages/calendaring/validation.csv,validation
+efficient Analysis,2.158,Anode,48.879999999999995,52.0,194.0,11.928839823563212,119.0,53.54849330003967,1.0,100,67.0,90.6,38.98753534994172,72,data/stages/calendaring/validation.csv,validation
+efficient Analysis,2.158,Anode,48.879999999999995,52.0,194.0,11.991087090194712,119.0,53.306099289745745,1.0,100,67.0,91.6,39.33870977597973,73,data/stages/calendaring/validation.csv,validation
+efficient Analysis,2.158,Anode,48.879999999999995,52.0,194.0,12.177828890089202,119.0,52.57891725886401,1.0,100,67.0,93.6,39.7103755748378,74,data/stages/calendaring/validation.csv,validation
+efficient Analysis,2.158,Anode,48.879999999999995,52.0,194.0,12.777666186719987,114.0,48.06080115311454,1.0,100,49.0,77.6,23.69756870431774,75,data/stages/calendaring/validation.csv,validation
+efficient Analysis,2.158,Anode,48.879999999999995,52.0,194.0,12.438135641457281,114.0,49.440939297850186,1.0,100,49.0,75.6,23.760146560250263,76,data/stages/calendaring/validation.csv,validation
+efficient Analysis,2.158,Anode,48.879999999999995,52.0,194.0,12.489065223246685,114.0,49.23391857613984,1.0,100,49.0,75.6,23.447972456083875,77,data/stages/calendaring/validation.csv,validation
+efficient Analysis,2.158,Anode,48.879999999999995,52.0,184.0,11.583650435879457,123.0,56.3595830380454,1.0,100,61.0,82.0,34.53937455706809,78,data/stages/calendaring/validation.csv,validation
+efficient Analysis,2.158,Anode,48.879999999999995,52.0,184.0,11.549697381353187,123.0,56.48749828072821,1.0,100,61.0,82.0,34.73124742109231,79,data/stages/calendaring/validation.csv,validation
+efficient Analysis,2.158,Anode,48.879999999999995,52.0,184.0,11.685509599458271,123.0,55.97583730999693,1.0,100,61.0,82.0,33.963755964995414,80,data/stages/calendaring/validation.csv,validation
+WMG-Effect of Coating,2.158,Anode,44.10075,46.3,145.0,9.565000000000001,85.47,48.141514406574636,30.0,25,63.31921090957236,67.64,34.471544002512346,84,data/stages/calendaring/validation.csv,validation
+WMG-Effect of Coating,2.158,Anode,44.10075,46.3,145.0,11.324,100.08,47.567432615538706,30.0,25,74.96359062624123,79.08,33.643761458815305,89,data/stages/calendaring/validation.csv,validation
+WMG-Effect of Coating,4.447,Cathode,63.839999999999996,66.5,110.0,18.337,73.33,43.76852565195713,30.0,85,58.90648591345691,59.7,30.930418526934954,94,data/stages/calendaring/validation.csv,validation
+WMG-Effect of Coating,4.447,Cathode,63.839999999999996,66.5,110.0,17.61,68.19,41.927364488692206,30.0,85,56.57104307880112,46.0,13.91363009747657,96,data/stages/calendaring/validation.csv,validation
+WMG-Effect of Coating,4.447,Cathode,63.839999999999996,66.5,92.0,17.215,68.5,43.48687460914354,30.0,85,55.30212984676669,55.0,29.61547110411513,98,data/stages/calendaring/validation.csv,validation
+WMG-Effect of Coating,4.447,Cathode,63.839999999999996,66.5,92.0,14.427000000000001,60.99,46.8075163224825,30.0,85,46.34585113559704,45.5,28.698690560619955,101,data/stages/calendaring/validation.csv,validation
+WMG-Effect of Coating,4.447,Cathode,63.839999999999996,66.5,110.0,17.399,74.77,47.67252510427073,30.0,85,55.893218542195385,56.28,30.48107146493112,107,data/stages/calendaring/validation.csv,validation
+WMG Calendering,4.447,Cathode,64.32,67.0,113.0,17.88784179255861,73.4,45.19820853246866,0.8,120,58.02101797087871,57.0,29.430675548828066,147,data/stages/calendaring/validation.csv,validation
+WMG Calendering,4.447,Cathode,64.32,67.0,113.0,17.946755500551333,73.4,45.017718522693464,0.8,120,58.02101797087871,57.0,29.1982550801,148,data/stages/calendaring/validation.csv,validation
+WMG Calendering,4.447,Cathode,64.32,67.0,113.0,18.08261179065104,73.4,44.6015046403293,0.8,120,58.02101797087871,57.0,28.66228843158195,149,data/stages/calendaring/validation.csv,validation
+WMG Calendering,4.447,Cathode,64.32,67.0,113.0,17.99083900564362,74.26666667,45.525863345522524,0.8,145,57.93871866762117,57.0,29.024341244664775,156,data/stages/calendaring/validation.csv,validation
+WMG Calendering,4.447,Cathode,64.32,67.0,113.0,18.025384654752877,74.26666667,45.42126319820281,0.8,145,57.93871866762117,57.0,28.888055204759066,157,data/stages/calendaring/validation.csv,validation
+WMG Calendering,4.447,Cathode,64.32,67.0,113.0,18.036899871122632,74.26666667,45.38639648242958,0.8,145,57.93871866762117,57.0,28.842626524790493,158,data/stages/calendaring/validation.csv,validation
+Data Driven Assessment,4.77,Cathode,64.6,68.0,300.0,41.9475,170.0,48.27044025157233,0.54,60,100.0,134.6,34.66548917360546,168,data/stages/calendaring/validation.csv,validation
+Data Driven Assessment,4.77,Cathode,64.6,68.0,300.0,41.9475,170.0,48.27044025157233,0.54,60,100.0,129.8,32.249420976635555,169,data/stages/calendaring/validation.csv,validation
+Data Driven Assessment,4.77,Cathode,64.6,68.0,300.0,41.9475,170.0,48.27044025157233,0.54,60,100.0,132.0,33.378597293691634,170,data/stages/calendaring/validation.csv,validation
+Data Driven Assessment,4.77,Cathode,64.6,68.0,300.0,41.9475,170.0,48.27044025157233,0.54,60,100.0,131.0,32.87003696768927,171,data/stages/calendaring/validation.csv,validation
+Data Driven Assessment,4.77,Cathode,64.86,69.0,300.0,45.09274,178.0,46.890985324947586,0.54,60,44.0,128.2,26.260494444935023,192,data/stages/calendaring/validation.csv,validation
+Data Driven Assessment,4.77,Cathode,64.86,69.0,300.0,45.09274,178.0,46.890985324947586,0.54,60,44.0,127.5,25.85565010071115,193,data/stages/calendaring/validation.csv,validation
+Data Driven Assessment,4.77,Cathode,64.86,69.0,300.0,45.09274,178.0,46.890985324947586,0.54,60,44.0,127.6,25.913756957998977,194,data/stages/calendaring/validation.csv,validation
+Data Driven Assessment,4.77,Cathode,64.86,69.0,300.0,45.09274,178.0,46.890985324947586,0.54,60,44.0,127.5,25.85565010071115,195,data/stages/calendaring/validation.csv,validation
+Data Driven Assessment,4.77,Cathode,64.86,69.0,300.0,45.09274,178.0,46.890985324947586,0.54,60,1.0,125.399999999999,24.613998308138708,196,data/stages/calendaring/validation.csv,validation
+Data Driven Assessment,4.77,Cathode,64.86,69.0,300.0,45.09274,178.0,46.890985324947586,0.54,60,1.0,128.2,26.260494444935023,197,data/stages/calendaring/validation.csv,validation
+Data Driven Assessment,4.77,Cathode,64.86,69.0,300.0,45.09274,178.0,46.890985324947586,0.54,60,1.0,127.0,25.56374321134386,198,data/stages/calendaring/validation.csv,validation
+Data Driven Assessment,4.77,Cathode,64.86,69.0,300.0,45.09274,178.0,46.890985324947586,0.54,60,1.0,129.2,26.83123365201756,199,data/stages/calendaring/validation.csv,validation

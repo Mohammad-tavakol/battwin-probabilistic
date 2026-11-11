@@ -1,0 +1,127 @@
+{
+  "stage": "calendaring",
+  "features": [
+    "Am/total weight%",
+    "Solid Content (%)",
+    "Coating Gap (micron)",
+    "Mass loading dry (mg/cm2)",
+    "Dry Coating Thickness (\u00b5m)",
+    "Calendering Roll speed(m/min)",
+    "Calendaring Roll temp",
+    "Calendaring Gap (um)",
+    "Solid density (g/cm3)",
+    "Electrode type",
+    "Dried Porosity (%)"
+  ],
+  "targets": [
+    "Calendered thickness (um)",
+    "Calendered porosity (%)"
+  ],
+  "categorical_features": [
+    "Electrode type"
+  ],
+  "split_group_features": [
+    "Solid Content (%)",
+    "Am/total weight%",
+    "Coating Gap (micron)",
+    "Calendering Roll speed(m/min)",
+    "Calendaring Roll temp",
+    "Calendaring Gap (um)"
+  ],
+  "bootstrap_group_features": [
+    "Solid Content (%)",
+    "Am/total weight%",
+    "Coating Gap (micron)",
+    "Calendering Roll speed(m/min)",
+    "Calendaring Roll temp",
+    "Calendaring Gap (um)"
+  ],
+  "test_group_features": [
+    "Solid Content (%)",
+    "Am/total weight%",
+    "Coating Gap (micron)",
+    "Calendering Roll speed(m/min)",
+    "Calendaring Roll temp",
+    "Calendaring Gap (um)"
+  ],
+  "target_configurations": {
+    "Calendered thickness (um)": {
+      "distribution": "Gamma",
+      "target_mode": "raw",
+      "xgb_params": {
+        "eta": 0.0316719755577289,
+        "max_depth": 3,
+        "gamma": 2.7268198039641584e-06,
+        "min_child_weight": 8.943306622624847,
+        "subsample": 0.8352669402005475,
+        "colsample_bytree": 0.7724619194432867,
+        "lambda": 0.010422557315687909,
+        "alpha": 0.0026527090539850326,
+        "booster": "gbtree",
+        "nthread": 1,
+        "verbosity": 0
+      },
+      "num_boost_round": 850,
+      "dist_kwargs": {
+        "stabilization": "None",
+        "response_fn": "softplus",
+        "loss_fn": "nll"
+      }
+    },
+    "Calendered porosity (%)": {
+      "distribution": "Gumbel",
+      "target_mode": "log1p",
+      "xgb_params": {
+        "eta": 0.009913810502557565,
+        "max_depth": 3,
+        "gamma": 1.4679405666780337e-07,
+        "min_child_weight": 0.2254060512643365,
+        "subsample": 0.8113689501811439,
+        "colsample_bytree": 0.8490172911503179,
+        "lambda": 10.119048378511375,
+        "alpha": 4.22870368668349e-06,
+        "booster": "gbtree",
+        "nthread": 1,
+        "verbosity": 0
+      },
+      "num_boost_round": 450,
+      "dist_kwargs": {
+        "stabilization": "None",
+        "response_fn": "softplus",
+        "loss_fn": "nll"
+      }
+    }
+  },
+  "ensemble_size": 20,
+  "seed": 42,
+  "calibration": "Kuleshov frozen grouped validation CDF maps",
+  "target_input_features": {
+    "Calendered thickness (um)": [
+      "Am/total weight%",
+      "Solid Content (%)",
+      "Coating Gap (micron)",
+      "Mass loading dry (mg/cm2)",
+      "Dry Coating Thickness (\u00b5m)",
+      "Calendering Roll speed(m/min)",
+      "Calendaring Roll temp",
+      "Calendaring Gap (um)"
+    ],
+    "Calendered porosity (%)": [
+      "Am/total weight%",
+      "Solid Content (%)",
+      "Coating Gap (micron)",
+      "Mass loading dry (mg/cm2)",
+      "Dry Coating Thickness (\u00b5m)",
+      "Calendering Roll speed(m/min)",
+      "Calendaring Roll temp",
+      "Calendaring Gap (um)",
+      "Solid density (g/cm3)",
+      "Electrode type",
+      "dry_porosity_consistent",
+      "gap_to_dry_thickness",
+      "nominal_gap_porosity",
+      "dry_bulk_solid_fraction"
+    ]
+  },
+  "input_recipe": "density_aware_conditional_v1"
+}

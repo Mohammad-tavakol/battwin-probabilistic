@@ -1,0 +1,1 @@
+The models/ directory contains four fitted process ensembles with embedded preprocessing, target recipes and validation-fitted Kuleshov maps. Check file identity against manifest.json. Load model files only from a trusted source.

@@ -1,0 +1,11 @@
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.16.3
+scikit-learn==1.8.0
+xgboost==3.2.0
+xgboostlss==0.6.1
+torch==2.9.1
+joblib==1.5.3
+optuna==4.8.0
+matplotlib==3.10.9
+openpyxl==3.1.5

@@ -1,0 +1,14 @@
+{
+  "artifact_type": "xgboostlss_kuleshov_process",
+  "format_version": 1,
+  "models": {
+    "calendaring.joblib": "44bb9f5983d50af17986a2de5bba881d2b5959303a82242a355c2784738cb819",
+    "coating_drying.joblib": "9c20a9b3e151584f6194763fa076df486756ba9937f8c7338d23cd3e1949e27d",
+    "electrochemical.joblib": "8907b542c108d54328fa9fbaa33d8bde5cbbe0ea7bd917d8041097652d45c50e",
+    "mixing.joblib": "562d14e0acbf09edc9d7f02ef7d1e6df9335573fb3c5554ee95f8939700570f0"
+  },
+  "ensemble_members": 20,
+  "calibration": "held-out validation Kuleshov CDF maps embedded in each process artifact",
+  "porosity_routing": "learned conditional outputs",
+  "process_contracts": "configs/processes/"
+}
