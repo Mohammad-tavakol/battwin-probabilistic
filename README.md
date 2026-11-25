@@ -85,3 +85,12 @@ tests/                      scientific checks and numerical references
 The [scientific conventions](docs/ARCHITECTURE.md) define calibration, pairing, grouped evaluation and scrap accounting. Generated results belong under `runs/` and are excluded from version control.
 
 Report medians and finite-particle means separately. The exponentiated StudentT model has no finite theoretical mean; its Monte Carlo averages depend on particle count and seed. Numerical reproduction does not establish external experimental validation.
+
+## Licence
+
+The project's original code, documentation and fitted models are licensed under the
+[Apache License, Version 2.0](LICENSE). Academic and commercial use, modification
+and redistribution are permitted subject to the licence terms.
+
+Third-party dependencies and source datasets retain their respective licences and
+attribution requirements. This licence does not replace those terms.
